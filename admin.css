@@ -183,3 +183,12 @@ form .submit,
     top: 8px;
     z-index: 9999;
 }
+/* https://webaim.org/techniques/css/invisiblecontent/ */
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
